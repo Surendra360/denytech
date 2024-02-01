@@ -1,0 +1,85 @@
+* {
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,
+body{
+width: 100%;
+height: 100%;
+font-family: gilroy;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.nav-part1,.nav-part3{
+    display: flex;
+}
+
+.nav-part1 h4,i, .nav-part2 i{
+ border: 2px solid black;
+ border-radius: 50px;
+ padding: 5px;
+ gap: 2px;
+}
+
+.nav-part3 button{
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.nav-part3 button:nth-child(2){
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+.nav-part2>h4{
+    font: 20px; 
+}
+.main>h3{
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.main>img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+.main #img1{
+    transform: translate(-50%, -50%) rotate(-25deg);
+}
+.main #img2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+.main #img3{
+    transform: translate(-50%, -50%) rotate(-15deg);
+}
+.main #img4{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+.main #img5{
+    transform: translate(-50%, -50%) rotate(-5deg);
+}
